@@ -1,0 +1,286 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-weight: normal;
+}
+.background{
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow-y: auto; 
+}
+.nav{
+  width: 350px;
+  height: 630px;
+  top: 10%;
+  left: 0;
+  background: #fa86ad;
+}
+.nav a{
+  text-decoration: none;
+  font-size: 28px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  height: 90px;
+  margin: 5px 0;
+  float: left;
+  display: inline-block;
+  background-color: #fa86ad;
+  color: #d33a81;
+  line-height: 90px;
+  text-align: center;
+  transition: 300ms;
+}
+a.active, .nav a:hover{
+  background-color: #f0f5f5;
+  color: #669999;
+  width: 100%;
+}
+.a{
+  width: 95%;
+}
+.b{
+  width: 85%;
+}
+.c{
+  width: 80%;
+}
+.d{
+  width: 90%;
+}
+.e{
+  width: 75%;
+}
+.content{
+  position: absolute;
+  width: 998px;
+  /* min-height: 500px; */
+  height: 600px;
+  right: 0;
+  top: 0%;
+  /* margin-right: 20px; */
+}
+.about{
+  position: absolute;
+  height: 600px;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  bottom: 0px;
+  height: 600px;
+  background-color: #ffcedf;
+  
+}
+.about .profil{
+  width: 20%;
+  margin: 2%;
+  float: left;
+}
+.profil img{
+  padding: 5px;
+  /* background-color: whitesmoke; */
+  width: 100%;
+  transition: all ease 0.5s;
+  -webkit-transform-style: all ease 0.5s;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+}
+.profil img:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+.about .penjelasan{
+  padding-top: 30px;
+}
+.penjelasan h1{
+  font-size: 50px;
+  padding-right: 90px;
+  text-transform: uppercase;
+  color: cornsilk;
+  font-family: fantasy;
+}
+.penjelasan .subheading{
+  font-size: 20px;
+  padding: 5px 0;
+  opacity: 0.6;
+  border-bottom: 1px solid black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.penjelasan p{
+  font-size: 20px;
+  padding: 5px 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+}
+.sosmed a{
+  padding: 2px 10px;
+  position: bottom;
+}
+.experience{
+  position: absolute;
+  left: 0;
+  top: 0;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 60px;
+  display: none;
+  width: 998px;
+  height: 600px;
+  background-color: #ffcedf;
+}
+.experience h2{
+  font-family: fantasy;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #d33a81;
+  position: center;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.experience p{
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 15px;
+
+}
+.education{
+  position: absolute;
+  left: 0;
+  top: 0;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 60px;
+  display: none;
+  background-color: #ffcedf;
+  width: 998px;
+  height: 600px;
+}
+.education h2{
+  font-family: fantasy;
+  text-transform: uppercase;
+  font-size: 50px;
+  position: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  color: #d33a81;
+}
+.experience p{
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+.skill{
+  position: absolute;
+  left: 0;
+  top: 0;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 60px;
+  display: none;
+  background-color: #ffcedf;
+  width: 998px;
+  height: 600px;
+}
+.skill h2{
+  font-family: fantasy;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #d33a81;
+  position: center;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.skill p{
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+.skill i{
+  color: #204060;
+}
+.interest{
+  position: absolute;
+  left: 0;
+  top: 0;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 60px;
+  display: none;
+  background-color: #ffcedf;
+  width: 998px;
+  height: 600px;
+}
+.interest h2{
+  font-family: fantasy;
+  text-transform: uppercase;
+  font-size: 50px;
+  position: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  color: #d33a81;
+}
+.interest p{
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+.interest .hias{
+  margin: 2%;
+  float: left;
+}
+.hias img{
+  padding: 5px;
+  transition: all ease 0.5s;
+  -webkit-transform-style: all ease 0.5s;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+}
+.hias img:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
