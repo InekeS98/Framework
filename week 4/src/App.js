@@ -18,6 +18,11 @@ function App() {
     // </div>
     <div>
        <div className="about text-center">
+       <div className="container">
+            <div className="card-body">
+                <h2>Biodata</h2>
+            </div>
+        </div>
                     <div className="Biodata">           
                         <img width={150} height={178} src={image}/> 
                     </div>
@@ -30,7 +35,7 @@ function App() {
                         <p className="lead mb-5">
                         Ineke Susilowati <br></br>
                         Nim 1741720022<br></br>
-                        Kelas
+                        Kelas TI-3G
                         </p>
                     </div>
                     <div className="sosmed">
