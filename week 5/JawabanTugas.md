@@ -8,7 +8,6 @@ Tampilan Container-fluid dan Container
 Class container akan membuat tampilan dan item di dalamnya masuk kedalam wadah kontainernya (cenderung lebih masuk ke tengah) jadi lebih stabil pada saat dizoom in/out. Sedangkan container-fluid tampilan akan lebih menyebar dan merata (seperti penuh) dan tidak stabil pada saat dizoom in/out.
 
 ### b. Menginstall modulenya dengan menggunakan package manager seperti npm atau yarn
-<img src="1.JPG">
 
 ## Praktikum 2
 Karena setiap port hanya dapat menjalankan 1 proses.
@@ -29,4 +28,6 @@ listArtikel.json akan menambahkan data yang diinputkan pada form, sehingga terda
 
 Karena data yang difetch oleh react akan di order secara descending, sehingga data yang berada dibawah di listArtikel.json akan berada di atas saat ditampilkan oleh react
 
+<img src="4.JPG">
+<img src="4.1.JPG">
 
